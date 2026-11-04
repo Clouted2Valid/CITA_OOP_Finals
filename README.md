@@ -1,1 +1,3 @@
-# CITA_OOP_Finals
+# Lucero & Sitjar
+
+Day 1: Initialization of UML Diagram & Core Classes Draft
