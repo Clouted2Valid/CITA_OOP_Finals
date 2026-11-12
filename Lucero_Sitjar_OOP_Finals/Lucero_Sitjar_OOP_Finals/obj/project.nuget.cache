@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HMArimi4Bag=",
+  "success": true,
+  "projectFilePath": "/home/milfred/Documents/WebAPI/Lucero_Sitjar_OOP_Finals/Lucero_Sitjar_OOP_Finals.csproj",
+  "expectedPackageFiles": [
+    "/home/milfred/.nuget/packages/microsoft.aspnetcore.openapi/10.0.13/microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
+    "/home/milfred/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}

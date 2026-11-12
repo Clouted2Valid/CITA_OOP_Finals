@@ -1,0 +1,6 @@
+@Lucero_Sitjar_OOP_Finals_HostAddress = http://localhost:5114
+
+GET {{Lucero_Sitjar_OOP_Finals_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
