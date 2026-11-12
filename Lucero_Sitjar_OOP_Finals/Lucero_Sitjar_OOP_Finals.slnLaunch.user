@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Lucero_Sitjar_OOP_Finals.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\CampusAssetTracker.Console\\CampusAssetTracker.CLI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

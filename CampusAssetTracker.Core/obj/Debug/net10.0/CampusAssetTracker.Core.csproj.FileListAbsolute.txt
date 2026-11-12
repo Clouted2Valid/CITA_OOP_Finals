@@ -1,0 +1,13 @@
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\bin\Debug\net10.0\CampusAssetTracker.Core.deps.json
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\bin\Debug\net10.0\CampusAssetTracker.Core.dll
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\bin\Debug\net10.0\CampusAssetTracker.Core.pdb
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAssetTracker.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAssetTracker.Core.AssemblyInfoInputs.cache
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAssetTracker.Core.AssemblyInfo.cs
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAssetTracker.Core.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAssetTracker.Core.sourcelink.json
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAssetTracker.Core.dll
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\refint\CampusAssetTracker.Core.dll
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAssetTracker.Core.pdb
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\ref\CampusAssetTracker.Core.dll
+C:\Users\angel\OneDrive\Documents\GITHUB\CITA_OOP_Finals\CampusAssetTracker.Core\obj\Debug\net10.0\CampusAs.50918F17.Up2Date

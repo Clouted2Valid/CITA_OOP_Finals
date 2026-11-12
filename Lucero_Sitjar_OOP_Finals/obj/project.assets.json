@@ -1,67 +1,88 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
-      "Microsoft.AspNetCore.OpenApi/10.0.13": {
+      "Microsoft.OpenApi/3.11.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.OpenApi": "[2.12.2, 3.0.0)"
-        },
         "compile": {
-          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "related": ".xml"
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "related": ".xml"
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "3.11.0"
+        },
+        "compile": {
+          "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
-        ],
-        "build": {
-          "build/Microsoft.AspNetCore.OpenApi.targets": {}
-        }
+        ]
       },
-      "Microsoft.OpenApi/2.12.2": {
+      "Swashbuckle.AspNetCore.SwaggerGen/11.0.0": {
         "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "11.0.0"
+        },
         "compile": {
-          "lib/net8.0/Microsoft.OpenApi.dll": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.OpenApi.dll": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/11.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "CampusAssetTracker.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CampusAssetTracker.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampusAssetTracker.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.OpenApi/10.0.13": {
-      "sha512": "XVuqUBGjVUVyb4DXR5BrSkrW0Br7sYKq39f723ILhQLlFHCyhAgWe1PkJBc42R/5mKBIgHiKVSY+PN5/4XtcQw==",
+    "Microsoft.OpenApi/3.11.0": {
+      "sha512": "kvQz+mL/fnDw2VaE8zMyQhbMv7FmOYUydIhCVNKxQdrLu9XiMT/07DHwJ5YkRO2uzcxTFvMAKFKKywxoyLKHcA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.13",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/cs/Microsoft.AspNetCore.OpenApi.SourceGenerators.dll",
-        "build/Microsoft.AspNetCore.OpenApi.targets",
-        "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
-        "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
-        "microsoft.aspnetcore.openapi.nuspec"
-      ]
-    },
-    "Microsoft.OpenApi/2.12.2": {
-      "sha512": "ZkT7qiJe0Kj0+DTZOZo+xrDy1kNmdsWFQVPIQLNx9ZJ0T9cB2LG7r+Bi60so8/+yg1nkS7QCPadrzsTG4VPKrA==",
-      "type": "package",
-      "path": "microsoft.openapi/2.12.2",
+      "path": "microsoft.openapi/3.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -72,41 +93,115 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.2.12.2.nupkg.sha512",
+        "microsoft.openapi.3.11.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/11.0.0": {
+      "sha512": "suqoUNiGtcZb3sCGkgCbsNLKqR9Nz+lJeYOs9Dd/UGjU+6pxoZbyV2Z+1jqa8iwgsttBNBJLJ+AhgH5SFec3Sw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net10.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net10.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net11.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net11.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net11.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swagger.11.0.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/11.0.0": {
+      "sha512": "WoCKZlvSLyNEHrdzbMrWqrtLm9NW4BxHyEi4S8MpOJqLLgsF8HV/+Mjq5+zaB/Yn3KryT7osyD9fRtsg5uj6wQ==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net11.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net11.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net11.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggergen.11.0.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/11.0.0": {
+      "sha512": "WvmQe52t2Gei4j1zBPV6euNqdlOlE300p4ce1GTd7hJLV8sLEyIuwJ7IGcK/WK87G2OpEoIb3k2MxMhdQahWrA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net11.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net11.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net11.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggerui.11.0.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
+      ]
+    },
+    "CampusAssetTracker.Core/1.0.0": {
+      "type": "project",
+      "path": "../CampusAssetTracker.Core/CampusAssetTracker.Core.csproj",
+      "msbuildProject": "../CampusAssetTracker.Core/CampusAssetTracker.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.13"
+      "CampusAssetTracker.Core >= 1.0.0",
+      "Swashbuckle.AspNetCore.Swagger >= 11.0.0",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 11.0.0",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 11.0.0"
     ]
   },
   "packageFolders": {
-    "/home/milfred/.nuget/packages/": {}
+    "C:\\Users\\angel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/milfred/Documents/WebAPI/Lucero_Sitjar_OOP_Finals/Lucero_Sitjar_OOP_Finals.csproj",
+      "projectUniqueName": "C:\\Users\\angel\\OneDrive\\Documents\\GITHUB\\CITA_OOP_Finals\\Lucero_Sitjar_OOP_Finals\\Lucero_Sitjar_OOP_Finals.csproj",
       "projectName": "Lucero_Sitjar_OOP_Finals",
-      "projectPath": "/home/milfred/Documents/WebAPI/Lucero_Sitjar_OOP_Finals/Lucero_Sitjar_OOP_Finals.csproj",
-      "packagesPath": "/home/milfred/.nuget/packages/",
-      "outputPath": "/home/milfred/Documents/WebAPI/Lucero_Sitjar_OOP_Finals/obj/",
+      "projectPath": "C:\\Users\\angel\\OneDrive\\Documents\\GITHUB\\CITA_OOP_Finals\\Lucero_Sitjar_OOP_Finals\\Lucero_Sitjar_OOP_Finals.csproj",
+      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\angel\\OneDrive\\Documents\\GITHUB\\CITA_OOP_Finals\\Lucero_Sitjar_OOP_Finals\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/milfred/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\angel\\OneDrive\\Documents\\GITHUB\\CITA_OOP_Finals\\CampusAssetTracker.Core\\CampusAssetTracker.Core.csproj": {
+              "projectPath": "C:\\Users\\angel\\OneDrive\\Documents\\GITHUB\\CITA_OOP_Finals\\CampusAssetTracker.Core\\CampusAssetTracker.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -119,15 +214,24 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": {
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
-            "version": "[10.0.13, )"
+            "version": "[11.0.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
+            "target": "Package",
+            "version": "[11.0.0, )"
           }
         },
         "imports": [
@@ -149,7 +253,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.113/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

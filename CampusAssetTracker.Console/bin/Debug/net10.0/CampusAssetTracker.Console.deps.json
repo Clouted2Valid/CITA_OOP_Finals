@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CampusAssetTracker.Console/1.0.0": {
+        "dependencies": {
+          "CampusAssetTracker.Core": "1.0.0"
+        },
+        "runtime": {
+          "CampusAssetTracker.Console.dll": {}
+        }
+      },
+      "CampusAssetTracker.Core/1.0.0": {
+        "runtime": {
+          "CampusAssetTracker.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CampusAssetTracker.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusAssetTracker.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Assets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "Add",
+    "RelativePath": "api/Assets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CampusAssetTracker.Api.Controllers.AddAssetRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "Get",
+    "RelativePath": "api/Assets/{tag}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "CheckIn",
+    "RelativePath": "api/Assets/{tag}/checkin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "CheckOut",
+    "RelativePath": "api/Assets/{tag}/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "CampusAssetTracker.Api.Controllers.BorrowerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "Repair",
+    "RelativePath": "api/Assets/{tag}/repair",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "returnFromRepair",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "GetCheckedOut",
+    "RelativePath": "api/Assets/checkedout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "TotalDepreciation",
+    "RelativePath": "api/Assets/depreciation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "Filter",
+    "RelativePath": "api/Assets/filter/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "NetworkDevices",
+    "RelativePath": "api/Assets/network-devices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "Search",
+    "RelativePath": "api/Assets/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "q",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CampusAssetTracker.Api.Controllers.AssetsController",
+    "Method": "StatusSummary",
+    "RelativePath": "api/Assets/status-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

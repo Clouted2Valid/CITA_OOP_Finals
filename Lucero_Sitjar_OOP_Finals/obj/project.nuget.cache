@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HMArimi4Bag=",
+  "dgSpecHash": "nczFwhvyvDc=",
   "success": true,
-  "projectFilePath": "/home/milfred/Documents/WebAPI/Lucero_Sitjar_OOP_Finals/Lucero_Sitjar_OOP_Finals.csproj",
+  "projectFilePath": "C:\\Users\\angel\\OneDrive\\Documents\\GITHUB\\CITA_OOP_Finals\\Lucero_Sitjar_OOP_Finals\\Lucero_Sitjar_OOP_Finals.csproj",
   "expectedPackageFiles": [
-    "/home/milfred/.nuget/packages/microsoft.aspnetcore.openapi/10.0.13/microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
-    "/home/milfred/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512"
+    "C:\\Users\\angel\\.nuget\\packages\\microsoft.openapi\\3.11.0\\microsoft.openapi.3.11.0.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\11.0.0\\swashbuckle.aspnetcore.swagger.11.0.0.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\11.0.0\\swashbuckle.aspnetcore.swaggergen.11.0.0.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\11.0.0\\swashbuckle.aspnetcore.swaggerui.11.0.0.nupkg.sha512"
   ],
   "logs": []
 }
